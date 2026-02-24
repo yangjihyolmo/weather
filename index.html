@@ -7,15 +7,29 @@
 </head>
 <body>
 
-<div class="weather-box">
-    <h2 id="city">City Name</h2>
-    <h1 id="temp">--°C</h1>
-    <p id="desc">Weather Description</p>
+<div class="weather-card">
 
-    <input type="text" id="cityInput" placeholder="Enter city">
-    <button id="getWeather">Get Weather</button>
+    <div class="top-section">
+        <div class="left">
+            <h2 id="city">City Name</h2>
+            <p id="desc">Partly Cloudy</p>
+        </div>
+
+        <div class="right">
+            <img id="icon" src="" alt="weather icon">
+            <h1 id="temp">--°C</h1>
+        </div>
+    </div>
+
+    <div class="search">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="btn">Search</button>
+    </div>
+
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
-</body>
 
+</body>
+</html>
