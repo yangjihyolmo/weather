@@ -1,0 +1,29 @@
+body {
+    background: #2bbbad;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.weather-box {
+    margin-top: 100px;
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#getWeather {
+    padding: 8px 15px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
